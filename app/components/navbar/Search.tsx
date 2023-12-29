@@ -6,7 +6,7 @@ const Search = () => {
   return (
     <div
       className="
-        border-[1px]
+        border-[2px]
         w-full
         md:w-auto
         py-2
@@ -41,7 +41,7 @@ const Search = () => {
             text-sm
             font-semibold
             px-6
-            border-x-[1px]
+            border-x-[2px]
             flex-1
             text-center
             "
