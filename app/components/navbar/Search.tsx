@@ -59,7 +59,7 @@ const Search = () => {
             items-center
             gap-3"
         >
-          <div className="hidden sm:block">Add Guests</div>
+          <div className="hidden sm:block">ADD GUESTS</div>
           <div
             className="
             p-2
