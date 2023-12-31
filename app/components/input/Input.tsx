@@ -53,11 +53,11 @@ const Input: React.FC<InputProps> = ({
         rounded-md
         outline-none
         transition
-        disable:opacity-70
-        disabled:cursor-md-not-allowed
-        ${formatPrice ? "pl-9" : "pl-4"}
-        ${errors[id] ? "border-rose-500" : "border-neutral-300"}
-        ${errors[id] ? "focus:border-rose-500" : "forcus:border-black"}
+        disabled:opacity-70
+        disabled:cursor-not-allowed
+        ${formatPrice ? 'pl-9' : 'pl-4'}
+        ${errors[id] ? 'border-rose-500' : 'border-neutral-300'}
+        ${errors[id] ? 'focus:border-rose-500' : 'focus:border-black'}
         `}
       />
       <label
