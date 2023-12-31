@@ -131,7 +131,6 @@ const Modal: React.FC<ModalProps> = ({
                     items-center
                     p-6
                     rounded-t
-                    
                     justify-center
                     relative
                     border-b-[1.5px]
@@ -145,7 +144,7 @@ const Modal: React.FC<ModalProps> = ({
                     hover:capacity-70
                     transition
                     absolute
-                    left-9
+                    right-9
                     "
                 >
                   <IoMdClose size={18} />
