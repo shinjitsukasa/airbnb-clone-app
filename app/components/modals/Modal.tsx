@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useCallback, useEffect, useState } from "react";
 import { IoMdClose } from "react-icons/io";
@@ -80,7 +80,8 @@ const Modal: React.FC<ModalProps> = ({
         z-50
         outline-none
         focus:outline-none
-        bg-neutral-800/70"
+        bg-neutral-800/70
+        "
       >
         <div
           className="
@@ -165,19 +166,19 @@ const Modal: React.FC<ModalProps> = ({
                 "
                 >
                   {secondaryAction && secondaryActionLabel && (
-                  <Button
-                  outline
-                  disabled={disabled}
-                  label={secondaryActionLabel}
-                  onClick={handleSecondaryAction}
-                   />
+                    <Button
+                      outline
+                      disabled={disabled}
+                      label={secondaryActionLabel}
+                      onClick={handleSecondaryAction}
+                    />
                   )}
-                  
+
                   <Button
-                  disabled={disabled}
-                  label={actionLabel}
-                  onClick={handleSubmit}
-                   />
+                    disabled={disabled}
+                    label={actionLabel}
+                    onClick={handleSubmit}
+                  />
                 </div>
                 {footer}
               </div>
