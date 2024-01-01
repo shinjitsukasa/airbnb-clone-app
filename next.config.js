@@ -8,7 +8,8 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: "https",
-								hostname: "https://avatars.githubusercontent.com/u/",
+								hostname: "avatars.githubusercontent.com",
+                hostname: "lh3.googleusercontent.com",
 								pathname: "**",
             }
         ]
