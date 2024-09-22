@@ -20,7 +20,6 @@ COPY app ./app
 COPY public ./public
 COPY pages ./pages
 COPY prisma ./prisma
-COPY src ./src
 COPY middleware.ts .
 COPY tailwind.config.ts .
 COPY postcss.config.js .
