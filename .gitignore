@@ -17,6 +17,7 @@
 /build
 Dockerfile
 Dockerfile.backup
+dev.Dockerfile
 
 # misc
 .DS_Store
